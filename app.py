@@ -22,4 +22,4 @@ class MainClass(Resource):
 
 
 if __name__ == '__main__':
-    server.run(debug=True)
+    app.run(debug=True)
