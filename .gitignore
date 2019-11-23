@@ -5,7 +5,6 @@
 
 # virtualenv
 .venv
-/venv
 venv/
 ENV/
 
@@ -50,3 +49,4 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+/venv/
