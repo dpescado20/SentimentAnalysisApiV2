@@ -7,7 +7,7 @@ app = Api(app=server)
 
 name_space = app.namespace('analyzer', description='Social Sentiment Analyzer APIs')
 
-cl = Classifier()
+cl = Classifier()   
 
 
 @name_space.route("/predict<string:social_text>")
