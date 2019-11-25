@@ -10,7 +10,7 @@ name_space = app.namespace('analyzer', description='Social Sentiment Analyzer AP
 cl = Classifier()   
 
 
-@name_space.route("/predict<string:social_text>")
+@name_space.route("/predict/<string:social_text>")
 class MainClass(Resource):
     def get(self, social_text):
         cleaned = cl.clean_text(social_text)
