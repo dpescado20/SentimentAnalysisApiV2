@@ -16,7 +16,7 @@ lxml==4.4.1
 MarkupSafe==1.1.1
 more-itertools==7.2.0
 nltk==3.4.5
-numpy==1.17.4
+numpy==1.22.0
 pandas==0.25.3
 pyrsistent==0.15.5
 python-dateutil==2.8.1
